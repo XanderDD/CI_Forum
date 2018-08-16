@@ -1,0 +1,75 @@
+		body{
+			margin: 0px;
+		}
+		.f1{
+			width: 1902px;
+			height: 860px;
+			background: url("/CI_FORUM/images/home.jpg") no-repeat;
+		}
+		.instruction{
+			width: 1300px;
+			height: 500px;	
+			margin: 30px 0px 0px 300px;		
+		}
+		.instruction_title{
+			font-size: 30px;
+			font-weight: bold;
+			margin-bottom: 30px; 
+		}
+		.instruction_content{
+			width: 600px;
+			height: 300px;
+			font-size: 20px;
+			margin: 40px 0px 0px 80px; 
+			float: left;
+		}
+		.feature{
+			width: 1300px;
+			height: 500px;	
+			margin-left: 300px;
+			margin-bottom: 90px;
+		}
+		.feature_title{
+			font-size: 30px;
+			font-weight: bold;
+			margin-bottom: 30px; 
+		}
+		.page_info{
+			width: 1300px;
+			height: 300px;	
+			margin-left: 300px;
+		}
+
+		.feature ul{ 
+			list-style:none;
+			overflow: hidden;
+		}
+		.feature ul li{  
+			float:left; 
+			margin: 0 60px; 
+		}
+		.feature ul li h5{
+			margin: 5px;
+			text-align: center;
+			font-size: 18px;
+		}
+		#fea1{
+			display: inline;
+			font-size: 20px;
+		}
+		#fea2{
+			display: none;
+			font-size: 20px;
+		}
+		#fea3{
+			display: none;
+			font-size: 20px;
+		}
+		#fea4{
+			display: none;
+			font-size: 20px;
+		}
+		#fea5{
+			display: none;
+			font-size: 20px;
+		}

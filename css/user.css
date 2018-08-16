@@ -1,0 +1,47 @@
+		body{
+			margin: 0px;
+			background: url("/CI_FORUM/images/home.jpg") no-repeat;		
+		}
+		.main{
+			background:rgba(0,0,0,0.6); 
+			width: 1200px; 
+			height: 800px; 	
+			margin-left: 360px;
+			margin-top: 35px; 
+			color:#CAE1FF;
+		}
+		.f1{
+			border:2px solid;
+			width:1196px;
+			height:140px;
+		}
+		.f2{
+			border:2px solid;
+			width:1156px;
+			height:613px;
+			padding: 20px;
+			float:left;
+		}
+		.f2 h4{
+			width: 77px;
+			text-align: center;
+			margin-top: 10px;
+		}
+
+		#title{
+			display:block;
+			font:40px bold;
+			text-align:center;
+			margin:30px 0px 0px 0px;
+			color:#CAE1FF;
+		}
+		#date{
+			display:block;
+			font-size:20px;
+			margin:0px 0px 0px 20px;
+			float:left;
+			color:#CAE1FF;
+		}
+
+		
+		

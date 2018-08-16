@@ -1,0 +1,26 @@
+		.navigation{ 
+			width:1920px; 
+			height:80px; 
+			background:rgba(0,0,0,0.7);
+		}
+		.nav_ul{ 
+			list-style:none;
+			overflow: hidden;
+		}
+		.nav_ul li{  
+			float:left; 
+		}
+		.nav_ul li a:link,a:visited{
+			font-size: 18px;
+			display:block;
+			width:200px;
+			height: 53px;
+			color:#CAE1FF;
+			padding-top: 25px; 
+			text-align:center;
+			text-decoration:none;
+		}
+		.nav_ul li a:hover,a:active
+		{
+			background-color:rgba(255,165,0,0.8);
+		}

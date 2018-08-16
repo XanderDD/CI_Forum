@@ -1,0 +1,130 @@
+.game_sepecialstep{
+     position:relative;
+    margin:0 auto;
+    width:998px;
+    height:40px;
+    line-height: 40px;
+    margin-top:65px;
+    margin-bottom:35px;
+}
+.step_border{
+    display: inline-block;
+    border-top:1px solid #DBDBDB;
+    border-bottom:1px solid #DBDBDB;
+    background: #EAEAEA;
+    height:4px;
+    width:998px;
+}
+.g_step{
+     top:0;
+    position:absolute;
+    background:url(http://game.gtimg.cn/images/yxzj/web201605/page/selecticon.png) no-repeat;
+    background-position:-44px 0;
+    width:40px;
+    height:40px;
+    cursor:pointer;
+}
+.step01{
+    left:0;
+}
+.step02{
+    left:23%;
+}
+.step03{
+    left:48%;
+}
+.step04{
+    left:73%;
+}
+.step05{
+    left:98%;
+}
+.bcurrent{
+    background-position:0 0;
+}
+.g_steptxt{
+    position:absolute;
+    top:-52px;
+    border-radius:5px;
+    padding:8px 9px;
+    font-size:14px;
+    text-align: center;
+    line-height:normal;
+    background:#FFFFFF;
+    color:#A6A7A7;
+    border:2px solid #C1C1C1;
+    padding:6px 7px;
+}
+.steptxt01{
+    left:-2%;
+}
+.steptxt02{
+    left:21%;
+}
+.steptxt03{
+    left:46%;
+}
+.steptxt04{
+    left:71%;
+}
+.steptxt05{
+    right:-4%;
+}
+.steptxt05:after{
+    left:40px;
+}
+.steptxt05:before{
+    left:42px;
+}
+.step_current{
+    padding:8px 9px;
+    border:0;
+    background:#2784E0;
+    color:#fff;
+}
+.step_current:after{
+     width: 0;
+    height: 0;
+    font-size: 0;
+    overflow: hidden;
+    position: absolute;
+    content: '';
+       border-width: 8px;
+    border-style: solid dashed dashed;
+    border-color: #2784e0 transparent transparent;
+    left: 31px;
+    bottom: -16px;
+}
+.step_normal{
+    background:#FFFFFF;
+    color:#A6A7A7;
+    border:2px solid #C1C1C1;
+    padding:6px 7px;
+}
+.step_normal:before{
+    width: 0;
+    height: 0;
+    font-size: 0;
+    overflow: hidden;
+    position: absolute;
+    content: '';
+    border-width: 7px;
+    border-style: solid dashed dashed;
+    border-color: rgb(255, 255, 255) transparent transparent;
+    left: 33px;
+    bottom: -14px;
+    z-index: 2;
+}
+.step_normal:after{
+    width: 0;
+    height: 0;
+    font-size: 0;
+    overflow: hidden;
+    position: absolute;
+    content: '';
+    border-width: 9px;
+    border-style: solid dashed dashed;
+    border-color: #c1c1c1 transparent transparent;
+    left: 31px;
+    bottom: -19px;
+}

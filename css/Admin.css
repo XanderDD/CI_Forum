@@ -1,0 +1,70 @@
+.f1{
+	position: absolute;
+	border:2px solid;
+	width:99%;
+	height:140px;
+}
+.f2{
+	position: absolute;
+	border:2px solid;
+	width:260px;
+	height:600px;
+	margin-top: 142px; 
+	float:left;
+}
+.f3{
+	position: absolute;
+	border:2px solid;
+	width:76.7%;
+	height:540px;
+	margin-top: 142px;
+	margin-left: 262px;
+	padding: 30px;
+}
+#title{
+	display:block;
+	font:40px bold;
+	text-align:center;
+	margin:10px 0px 0px 0px;
+}
+#date{
+	display:block;
+	font-size:20px;
+	margin:20px 0px 0px 20px;
+	float:left;
+}
+#logout{
+	display:block;
+	font-size:20px;
+	float:right;
+	margin:20px 20px 10px 0px;
+}
+.ul{ 
+	list-style:none;
+	overflow: hidden;
+}
+.ul li{  
+	float:left;
+	border: 1px solid black; 
+}
+.ul li a:link,a:visited{
+	font-size: 18px;
+	display:block;
+	width: 260px;
+	height: 53px;
+	padding-top: 25px; 
+	text-align:center;
+	text-decoration:none;
+	color:black;
+	
+}
+.ul li a:hover,a:active
+{
+	background-color:rgba(255,165,0,0.8);
+}
+.button{
+		width:60px;
+		height:25px;
+		float:left;
+}
+
